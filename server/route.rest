@@ -1,0 +1,22 @@
+GET  http://localhost:5000/restaurants/
+### 
+GET  http://localhost:5000/subscribers/63a6ed50b013ee95957657e6
+Content-Type: application/json
+
+{
+    "name":"fred3"
+}
+###
+POST  http://localhost:5000/subscribers
+Content-Type: application/json
+
+{
+    "name":"fred3"
+}
+###
+PATCH   http://localhost:5000/subscribers/63a6ed50b013ee95957657e6
+Content-Type: application/json
+
+{
+    "name":"newwww"
+}
